@@ -35,6 +35,7 @@ public class Ticket {
 
     public static void main(String[] args) throws TelegramApiException, SQLException {
                 System.out.println("Bot running");
+        System.out.println("chiqar biror narsa");
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
         telegramBotsApi.registerBot(new TelegramBot());
         System.out.println("Connection to bot api is success");
